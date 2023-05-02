@@ -1,0 +1,14 @@
+.cardContainer{
+width: 430px;
+background-color: bisque;
+margin-left: 5px;
+border-radius: 1rem 1rem;
+}
+
+.content{
+    
+}
+.img{
+    width: 100%;
+    height: 300px;
+}

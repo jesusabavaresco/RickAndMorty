@@ -1,0 +1,19 @@
+.bar{
+    padding-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+.input{
+    border: none;
+    border-bottom: 2px solid #219ebc;
+}
+
+.btn {
+    background-color: #a8dadc;
+    border-radius: .5rem;
+    border: none;
+    padding: .5rem;
+    margin-left: 2rem;
+}
+*:focus{
+    outline: none;
+}
