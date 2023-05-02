@@ -6,14 +6,14 @@ const Card = (props) => {
          <div className={style.box}>
                <img className={style.img} src={props.image} alt='No Hay img'/>
          </div>
+               <h2>{name}</h2>
             <div className={style.content}>
-               <h2>Name: {name}</h2>
-               <h2>Status: {status}</h2>
-               <h2>Species: {species}</h2>
-               <h2>Gender: {gender}</h2>
-               <h2>origin: {origin}</h2>
-               <button onClick={onClose}>cerrar</button>
+               <p>Status: {status}</p>
+               <p>Species: {species}</p>
+               <p>Gender: {gender}</p>
+               <p>origin: {origin}</p>
             </div>
+               <button className={style.btn} onClick={onClose}>cerrar</button>
       </div>
    );
 }

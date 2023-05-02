@@ -7,7 +7,6 @@ const Cards = ({characters}) => {
       {
          characters.map(({onSeach, id, name, status, species, gender, origin, image, onClose}) => {
             return (
-               <div className={style.boxCard}>
                <Card
                   search = {onSeach}
                   key = {id}
@@ -19,8 +18,6 @@ const Cards = ({characters}) => {
                   image = {image} alt='No hay img' 
                   onClose = {() => window.alert('Emulamos que se cierra la card')}
                />
-               </div>
-               
             )
          })
       }
