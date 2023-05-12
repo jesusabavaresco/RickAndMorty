@@ -1,0 +1,29 @@
+.btn {
+    transition: 2s;
+    background-color: black;
+    border: none;
+    padding: .5rem 1.3rem;
+    margin-top: .5rem;
+    color: #fff;
+}
+.btn:hover {
+    background-image: url(../card/backCard.png);
+    color: #fff;
+    cursor: pointer;
+}
+.addR{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.home{
+    display: flex;
+    justify-content: center;
+}
+.about{
+    display: flex;
+    justify-content: right;
+    padding-right: .3rem;
+    margin-bottom: 1rem;
+}

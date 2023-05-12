@@ -1,14 +1,13 @@
 import Card from '../card/Card.jsx';
 import style from './Cards.module.css';
 
-const Cards = ({characters}) => {
+const Cards = ({characters, onClose}) => {
    return ( 
    <div className={style.container}>
       {
-         characters.map(({onSeach, id, name, status, species, gender, origin, image, onClose}) => {
+         characters.map(({id, name, status, species, gender, origin, image}) => {
             return (
                <Card
-                  search = {onSeach}
                   key = {id}
                   name = {name}
                   status = {status}
@@ -16,7 +15,8 @@ const Cards = ({characters}) => {
                   gender = {gender}
                   origin = {origin.name}
                   image = {image} alt='No hay img' 
-                  onClose = {() => window.alert('Emulamos que se cierra la card')}
+                  onClose = {onClose}
+                  id = {id}
                />
             )
          })

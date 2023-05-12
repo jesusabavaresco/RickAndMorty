@@ -1,20 +1,21 @@
 .cardContainer{
-width: 330px;
-background-color: bisque;
-margin-left: 5px;
-border-radius: 1rem;
-margin-bottom: 45px;
+    transition: 0.2s ease ease-in-out;
+    width: 330px;
+    background-image: url(./backCard.png);
+    margin-left: 5px;
+    margin-bottom: 45px;
+    box-shadow: 5px 2px 2px #000000;
 }
-
 .content{
-    text-align: left;
+    text-align: center;
     margin: 0 0 1rem 1rem;
-    
+    color: #fff;
 }
 .img{
-    width: 100%;
-    height: 200px;
-    border-radius: 1rem 1rem;
+    width: 65%;
+    height: 180px;
+    text-align: center;
+    margin-top: 20px;
 }
 .btn{
     transition: .3s;
@@ -23,5 +24,12 @@ margin-bottom: 45px;
     margin-bottom: 1rem;
     padding: 8px;
 }
-
-
+.btn:hover{
+    cursor: pointer;
+}
+.name{
+    color: #fff;
+}
+.cora{
+    padding-left: 2rem;
+}
